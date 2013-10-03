@@ -764,6 +764,15 @@ vehicles/strafer/console
 		glow
 	}
 }
+vehicles/deathball/skin
+{
+	{
+		map vehicles/deathball/skin_normal.tga
+		normalmap
+		map2 vehicles/deathball/skin_fx.tga
+		glow
+	}
+}
 maps/meshes/electrode
 {
 	{
@@ -1446,6 +1455,22 @@ models/tactical/hlaser
 		map models/tactical/laser_normal.jpg
 		normalmap
 		map2 models/tactical/hlaser_fx.tga
+		glow
+	}
+}
+models/tactical/hbackupgen
+{
+	{
+		map models/tactical/hbackupgen_normal.jpg
+		normalmap
+	}
+}
+models/tactical/abackupgen
+{
+	{
+		map models/tactical/abackupgen_normal.jpg
+		normalmap
+		map2 models/tactical/abackupgen_fx.tga
 		glow
 	}
 }
